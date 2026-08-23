@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Golden Celestial Array Ring -->
+    <path
+        android:pathData="M54,27 A27,27 0 1,1 53.9,27 Z"
+        android:strokeWidth="2.2"
+        android:strokeColor="#F59E0B"
+        android:fillColor="#00000000" />
+        
+    <path
+        android:pathData="M54,30 A24,24 0 1,1 53.9,30 Z"
+        android:strokeWidth="1.0"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#00000000" />
+
+    <!-- 4 Cardinal Trigram Energy Marks -->
+    <path
+        android:pathData="M51,23 L57,23 M51,25 L57,25 M51,83 L57,83 M51,85 L57,85 M23,51 L23,57 M25,51 L25,57 M83,51 L83,57 M85,51 L85,57"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FBBF24"
+        android:strokeLineCap="round" />
+
+    <!-- Sacred Taiji / Yin-Yang Cultivation Core (Diameter 36, centered at 54,54) -->
+    <!-- Yang (Cyan / Light) Half -->
+    <path
+        android:pathData="M54,36 A18,18 0 0,1 54,72 A9,9 0 0,1 54,54 A9,9 0 0,0 54,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="36"
+                android:endX="54"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#818CF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Yin (Golden Core) Half -->
+    <path
+        android:pathData="M54,36 A18,18 0 0,0 54,72 A9,9 0 0,0 54,54 A9,9 0 0,1 54,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="36"
+                android:endX="54"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Yang Dot (Gold inside Cyan) -->
+    <path
+        android:pathData="M54,45m-2.8,0a2.8,2.8 0 1,0 5.6,0a2.8,2.8 0 1,0 -5.6,0"
+        android:fillColor="#FBBF24" />
+
+    <!-- Yin Dot (Cyan inside Gold) -->
+    <path
+        android:pathData="M54,63m-2.8,0a2.8,2.8 0 1,0 5.6,0a2.8,2.8 0 1,0 -5.6,0"
+        android:fillColor="#E0F2FE" />
+
+    <!-- Celestial Floating Sword Tip Silhouette (Spiritual Dao Focus) -->
+    <path
+        android:pathData="M54,33 L56,41 L54,40 L52,41 Z"
+        android:fillColor="#FFFFFF" />
+        
+    <!-- Ascending Qi Wisps -->
+    <path
+        android:pathData="M38,40 Q40,34 44,36 M70,40 Q68,34 64,36"
+        android:strokeWidth="1.2"
+        android:strokeColor="#A7F3D0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

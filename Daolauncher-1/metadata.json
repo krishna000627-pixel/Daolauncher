@@ -1,0 +1,7 @@
+{
+  "name": "DaoLauncher",
+  "description": "Cultivation gamification productivity launcher with realm progression, daily quest board, focus meditation, and app manager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
